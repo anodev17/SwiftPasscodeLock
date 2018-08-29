@@ -27,7 +27,7 @@ open class PasscodeLock: PasscodeLockType {
     }
     
     fileprivate var lockState: PasscodeLockStateType
-    fileprivate lazy var passcode = [String]()
+    fileprivate lazy var passcode = String()
     
     public init(state: PasscodeLockStateType, configuration: PasscodeLockConfigurationType) {
         
